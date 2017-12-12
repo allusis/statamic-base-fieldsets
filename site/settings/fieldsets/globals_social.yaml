@@ -1,0 +1,47 @@
+title: 'Globals - Social'
+hide: true
+taxonomies: false
+fields:
+  facebook_app_id:
+    type: text
+    display: Facebook App ID
+  twitter_handle:
+    type: text
+    display: Twitter Handle
+    width: 33
+  twitter_author:
+    type: text
+    display: Twitter Author
+    width: 33
+  default_opengraph_image:
+    type: assets
+    display: Default OpenGraph Image
+    instructions: Should be 600px by 315px
+    container: company
+    folder: /
+    restrict: true
+    max_files: 1
+  social_title:
+    type: text
+    display: Social Intro text
+    instructions: 'ex: Follow us online!'
+  social_sites:
+    type: replicator
+    display: Social Icons
+    instructions: Used primarily in the footer
+    sets:
+      social_site:
+        display: Social Site
+        instructions: Use .svg format
+        fields:
+          image_id:
+            type: text
+            display: Image ID
+          name:
+            type: text
+            display: Name
+            width: 25
+          network_url:
+            type: text
+            display: Network URL
+            width: 25

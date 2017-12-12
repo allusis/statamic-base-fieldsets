@@ -1,0 +1,16 @@
+settings:
+  debug:
+    debug: false
+  system:
+    locales:
+      en:
+        url: http://tony.ninja
+
+caching:
+  stache_always_update: false
+  static_caching_enabled: true
+  static_caching_type: file
+  static_caching_file_path: static
+  static_caching_ignore_query_strings: true
+  static_caching_exclude: [ ]
+  static_caching_lock_hold_length: 0

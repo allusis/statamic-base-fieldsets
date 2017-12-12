@@ -1,0 +1,29 @@
+taxonomies:
+  tags: true
+title: Globals - Branding
+fields:
+  logo:
+    type: assets
+    display: Logo
+    container: solutions
+    folder: /
+  social_logo:
+    type: assets
+    display: Social Logo
+    instructions: "This logo is used for Rich snippets (Google, etc). It is a separate image because the svg format is more flexible for our website, but isn't supported on others."
+    container: company
+    folder: /
+    max_files: 1
+  android_nav_bg:
+    type: text
+    display: Android menubar color
+    instructions: hex code without the hex please!
+    width: 25
+  social_card:
+    type: assets
+    display: Default Social Media Card
+    instructions: 600px by 315px
+    container: company
+    folder: /
+    max_files: 1
+    restrict: true

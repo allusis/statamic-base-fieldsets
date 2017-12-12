@@ -1,0 +1,83 @@
+taxonomies:
+  tags: true
+title: Globals - Contact
+fields:
+  section_location_settings:
+    type: section
+    display: Location Settings
+  address:
+    type: text
+    display: Address
+    width: 66
+  city:
+    type: text
+    display: City
+    width: 33
+  state:
+    type: text
+    display: State
+    width: 33
+  zip:
+    type: text
+    display: Zip
+    width: 33
+  country:
+    type: text
+    display: Country
+    width: 33
+  longitude_location:
+    type: text
+    display: Longitude
+    width: 33
+  latitude_location:
+    type: text
+    display: Latitude
+    width: 33
+  section_contacts_settings:
+    type: section
+    display: Location Settings
+  phone:
+    type: text
+    display: General Contact Phone
+  contacts:
+    type: replicator
+    display: Contacts
+    sets:
+      contact:
+        display: Person
+        fields:
+          contact_role:
+            type: text
+            display: Role
+            width: 50
+          contact_name:
+            type: text
+            display: Name
+            width: 50
+          contact_email:
+            type: text
+            display: Email Address
+            width: 50
+          contact_phone:
+            type: text
+            display: Phone Number
+            width: 50
+  office_hours:
+    type: replicator
+    display: Office Hours
+    sets:
+      day:
+        display: Day
+        fields:
+          day_name:
+            type: text
+            display: Name
+            width: 50
+          open_time:
+            type: time
+            display: Open Time
+            width: 25
+          close_time:
+            type: time
+            display: Close time
+            width: 25

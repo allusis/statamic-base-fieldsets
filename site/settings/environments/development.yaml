@@ -1,0 +1,12 @@
+settings:
+  debug:
+    debug: true
+  system:
+    locales:
+      en:
+        url: http://localhost:8888
+
+caching:
+  stache_always_update: true
+  static_caching_enabled: false
+  static_caching_lock_hold_length: 0

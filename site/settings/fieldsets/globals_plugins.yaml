@@ -1,0 +1,10 @@
+taxonomies:
+  tags: true
+title: Globals - Plugins
+fields:
+  section_analytics:
+    type: section
+    display: Tag management
+  google_tag_manager_id:
+    type: text
+    display: Google Tag Manager ID

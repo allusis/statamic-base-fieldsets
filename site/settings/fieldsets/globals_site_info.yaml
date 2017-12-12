@@ -1,0 +1,21 @@
+title: Globals - Site Info
+hide: true
+taxonomies: false
+fields:
+  site_name:
+    type: text
+    display: Website Name
+    localizable: true
+    width: 33
+  site_description:
+    type: textarea
+    display: Site Description
+    width: 100
+  site_link:
+    type: text
+    display: Site URL
+    width: 33
+  site_keywords:
+    type: text
+    display: Site Keywords
+    width: 100

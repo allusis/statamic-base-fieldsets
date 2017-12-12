@@ -1,0 +1,27 @@
+taxonomies:
+  tags: true
+title: Globals - Organization
+fields:
+  organization_information:
+    type: section
+    display: Organization Information
+  organization_name:
+    type: text
+    display: Organization Name
+  founding_year:
+    type: text
+    display: Founding Year
+  founders:
+    type: replicator
+    display: Founders
+    sets:
+      contact:
+        display: Person
+        fields:
+          founder_name:
+            type: text
+            display: Name
+            width: 50
+  legal_name:
+    type: text
+    display: Legal Name
